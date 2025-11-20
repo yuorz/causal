@@ -1,0 +1,89 @@
+You are a causal discovery assistant.
+I will give you a tabular dataset in CSV format.
+The first row of the CSV contains the feature (column) names.
+
+Goal
+Infer a plausible causal DAG (Directed Acyclic Graph) over the features in the CSV.
+I will also specify a prediction target label, which you can use to guide your reasoning, but you must not output it separately.
+Your output must be only a JSON adjacency list for the DAG in the format described below.
+
+prediction target label: <The target label>
+
+Input information
+
+Dataset domain/description: [SHORT DESCRIPTION OF DATASET, e.g. “clinical data for disease risk prediction”]
+
+CSV header (feature names in order):
+["FEATURE_1", "FEATURE_2", "FEATURE_3", ..., "FEATURE_N"]
+
+Prediction target (label) name:
+"TARGET_FEATURE_NAME"
+
+(Optional) Short description of each feature:
+
+FEATURE_1: [DESCRIPTION]
+
+FEATURE_2: [DESCRIPTION]
+
+...
+
+(Optional) Example rows (comma-separated, same order as the header):
+
+VALUE_1_1, VALUE_1_2, ..., VALUE_1_N
+
+VALUE_2_1, VALUE_2_2, ..., VALUE_2_N
+
+Causal graph format (DAG constraint)
+
+You must output a directed acyclic graph (DAG) over exactly the given feature names.
+
+Use this adjacency-list style JSON format:
+
+{
+  "NODE_NAME_1": ["ADJ_NODE_A", "ADJ_NODE_B"],
+  "NODE_NAME_2": ["ADJ_NODE_C"],
+  "NODE_NAME_3": [],
+  ...
+}
+
+
+Semantics:
+
+Each key is a feature name (exactly one of the CSV header names).
+
+The value is a list of child nodes that this node has a direct causal effect on.
+
+Example:
+"X": ["Y", "Z"] means X → Y and X → Z.
+
+If a node has no children, use an empty list: "NODE": [].
+
+Do not introduce any variables that are not in the CSV header.
+
+The graph must be acyclic: there must be no directed cycle (no way to start at a node and follow directed edges to come back to it).
+
+Use of prediction target
+
+The prediction target (label) is: "TARGET_FEATURE_NAME".
+
+Use this information to make the DAG structurally reasonable (for example, it is natural for many other variables to have paths that eventually point into the target), but do not output the target separately.
+
+The target should appear as a node in the graph like any other feature.
+
+Output requirements
+
+Output only a single JSON object in the adjacency format described above.
+
+Do not wrap the graph in another key (e.g., no "graph": { ... }).
+
+Do not include any explanations, comments, or text outside the JSON.
+
+Make sure the JSON is syntactically valid:
+
+Double quotes around all keys and string values.
+
+No trailing commas.
+
+Use [] for nodes with no children.
+
+Now, using the CSV header, dataset description, and given prediction target, infer a plausible causal DAG and output the adjacency-list JSON exactly in the required format.
