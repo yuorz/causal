@@ -1,18 +1,23 @@
 
 # Simple FS ML
 
+## NOTE
+
+This repository is adapted from the original [simple_fs_ml](https://github.com/WoZhenDeShenMeDouBuZhidao/simple_fs_ml#) repo. Since I believe the research work has diverged, I created a separate repository for this line of work.
+
 ## Layout
 
 ```
-simple_fs_ml/
+causal/
 ├── cli.py
 ├── README.md
 ├── logs/        # metrics.ndjson only
-└── simple_fs_ml/
+└── causalgraph/
   ├── __init__.py
   ├── data.py      # load/split/save CSV
   ├── features.py    # exclude + selectors + one-hot prep
   ├── models.py      # PyTorch models + training loop
+  ├── CausalLogisticRegression.py # causal logistic regression model
   └── utils.py     # seed + ndjson writer
 ```
 
@@ -39,6 +44,22 @@ python cli.py train --dataset ./data/AmesHousing.csv --task regression --target 
 
 ```bash
 python cli.py train --dataset ./data/AmesHousing.csv --task classification --target ExterQual --exclude Order PID --method random --ratio 0.2 --model linear --log-dir logs
+```
+
+## Train (Regression: `SalePrice` using causal graph, e.g., `ExterQual`)
+
+```bash
+python cli.py train --dataset ./data/AmesHousing.csv --task classification --target ExterQual --exclude Order PID --method random --ratio 1.0 --graph ./data/graph/AmesHousing.json --model causal_linear --log-dir logs
+```
+
+## Graph structure
+
+```json
+{
+  "nodes1": ["Adj Nodes1", "Adj Nodes2", ...],
+  "nodes2": ["Adj Nodes1", "Adj Nodes2", ...],
+  ...
+}
 ```
 
 ### Extending
