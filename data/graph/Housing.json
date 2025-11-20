@@ -1,0 +1,15 @@
+{
+"price": [],
+"area": ["bedrooms", "bathrooms", "stories", "parking", "guestroom", "basement", "price"],
+"bedrooms": ["price"],
+"bathrooms": ["price"],
+"stories": ["bedrooms", "bathrooms", "price"],
+"mainroad": ["prefarea", "price"],
+"guestroom": ["price"],
+"basement": ["hotwaterheating", "price"],
+"hotwaterheating": ["price"],
+"airconditioning": ["price"],
+"parking": ["price"],
+"prefarea": ["price"],
+"furnishingstatus": ["guestroom", "price"]
+}

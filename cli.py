@@ -5,7 +5,6 @@ import argparse
 import os
 import json
 import numpy as np
-import pandas as pd
 
 from causalgraph import data, features, models, utils
 
@@ -73,7 +72,14 @@ def cmd_train(args):
     Xtr_df, Xva_df = features.prepare_design_matrices(train_df, valid_df, selected)
     Xtr = Xtr_df.values.astype(np.float32)
     Xva = Xva_df.values.astype(np.float32)
-
+    
+    c = utils.compute_c_from_dag(
+        graph=graph,
+        base_variables=selected,
+        design_columns=list(Xtr_df.columns),
+        target=args.target,
+    ) if graph is not None else None
+    
     metrics = models.train_and_eval(
         train_df=train_df,
         valid_df=valid_df,
@@ -81,12 +87,14 @@ def cmd_train(args):
         X_valid=Xva,
         target=args.target,
         task=args.task,
+        c=c,
         model_type=args.model,
         graph=graph
     )
 
     record = {
         "dataset": dataset_name,
+        "graph": args.graph if getattr(args, "graph", None) else "None",
         "task": args.task,
         "method": args.method,
         "model_type": args.model,

@@ -1,4 +1,5 @@
-Ames: 
-Housing:
-Bank:
-Wine-white:
+LLM to causal graph: https://chatgpt.com/share/691f5986-943c-8012-9809-86baca794cfc
+Ames: https://chatgpt.com/share/691f4686-f0d0-8012-bd6b-ae8718c81218
+Housing: https://chatgpt.com/share/691f68fb-1abc-8012-b954-b6645d827a6f
+Wine-white: https://chatgpt.com/share/691f68db-7d00-8012-b357-dc224f35b6b6
+covid: https://chatgpt.com/share/691f68db-7d00-8012-b357-dc224f35b6b6

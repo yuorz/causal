@@ -1,0 +1,14 @@
+{
+  "fixed acidity": ["pH", "density"],
+  "volatile acidity": ["quality"],
+  "citric acid": ["fixed acidity"],
+  "residual sugar": ["density"],
+  "chlorides": ["density"],
+  "free sulfur dioxide": ["total sulfur dioxide"],
+  "total sulfur dioxide": ["quality"],
+  "density": ["quality"],
+  "pH": ["quality"],
+  "sulphates": ["quality"],
+  "alcohol": ["quality"],
+  "quality": []
+}

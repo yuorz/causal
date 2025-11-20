@@ -1,0 +1,110 @@
+{
+"id": [],
+
+"AL": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"AZ": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"CA": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"CO": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"CT": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"FL": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"GA": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"IL": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"IN": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"IA": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"KS": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"KY": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"LA": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"ME": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"MD": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"MA": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"MI": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"MN": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"MO": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"NJ": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"NM": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"NY": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"NC": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"OH": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"OK": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"OR": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"PA": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"SC": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"TN": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"TX": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"VA": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"WA": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"WV": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+"WI": ["cli", "hh_cmnty_cli", "nohh_cmnty_cli", "cli.1", "hh_cmnty_cli.1", "nohh_cmnty_cli.1", "cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2", "tested_positive", "tested_positive.1", "tested_positive.2"],
+
+"cli": ["cli.1"],
+"cli.1": ["cli.2"],
+"cli.2": ["tested_positive.2"],
+
+"ili": ["ili.1"],
+"ili.1": ["ili.2"],
+"ili.2": ["tested_positive.2"],
+
+"wnohh_cmnty_cli": ["wnohh_cmnty_cli.1"],
+"wnohh_cmnty_cli.1": ["wnohh_cmnty_cli.2"],
+"wnohh_cmnty_cli.2": ["tested_positive.2"],
+
+"wbelief_masking_effective": ["wbelief_masking_effective.1"],
+"wbelief_masking_effective.1": ["wbelief_masking_effective.2"],
+"wbelief_masking_effective.2": ["wearing_mask_7d.2"],
+
+"wbelief_distancing_effective": ["wbelief_distancing_effective.1"],
+"wbelief_distancing_effective.1": ["wbelief_distancing_effective.2"],
+"wbelief_distancing_effective.2": ["wshop_indoors.2", "wrestaurant_indoors.2", "wlarge_event_indoors.2", "public_transit.2"],
+
+"wcovid_vaccinated_friends": ["wcovid_vaccinated_friends.1"],
+"wcovid_vaccinated_friends.1": ["wcovid_vaccinated_friends.2"],
+"wcovid_vaccinated_friends.2": ["wbelief_masking_effective.2", "wbelief_distancing_effective.2", "wworried_catch_covid.2"],
+
+"wlarge_event_indoors": ["wlarge_event_indoors.1"],
+"wlarge_event_indoors.1": ["wlarge_event_indoors.2"],
+"wlarge_event_indoors.2": ["cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2"],
+
+"wothers_masked_public": ["wothers_masked_public.1"],
+"wothers_masked_public.1": ["wothers_masked_public.2"],
+"wothers_masked_public.2": ["wearing_mask_7d.2"],
+
+"wothers_distanced_public": ["wothers_distanced_public.1"],
+"wothers_distanced_public.1": ["wothers_distanced_public.2"],
+"wothers_distanced_public.2": ["wshop_indoors.2", "wrestaurant_indoors.2", "wlarge_event_indoors.2", "public_transit.2"],
+
+"wshop_indoors": ["wshop_indoors.1"],
+"wshop_indoors.1": ["wshop_indoors.2"],
+"wshop_indoors.2": ["cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2"],
+
+"wrestaurant_indoors": ["wrestaurant_indoors.1"],
+"wrestaurant_indoors.1": ["wrestaurant_indoors.2"],
+"wrestaurant_indoors.2": ["cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2"],
+
+"wworried_catch_covid": ["wworried_catch_covid.1"],
+"wworried_catch_covid.1": ["wworried_catch_covid.2"],
+"wworried_catch_covid.2": ["wearing_mask_7d.2", "wshop_indoors.2", "wrestaurant_indoors.2", "wlarge_event_indoors.2"],
+
+"hh_cmnty_cli": ["hh_cmnty_cli.1"],
+"hh_cmnty_cli.1": ["hh_cmnty_cli.2"],
+"hh_cmnty_cli.2": ["tested_positive.2"],
+
+"nohh_cmnty_cli": ["nohh_cmnty_cli.1"],
+"nohh_cmnty_cli.1": ["nohh_cmnty_cli.2"],
+"nohh_cmnty_cli.2": ["tested_positive.2"],
+
+"wearing_mask_7d": ["wearing_mask_7d.1"],
+"wearing_mask_7d.1": ["wearing_mask_7d.2"],
+"wearing_mask_7d.2": ["cli.2", "ili.2"],
+
+"public_transit": ["public_transit.1"],
+"public_transit.1": ["public_transit.2"],
+"public_transit.2": ["cli.2", "hh_cmnty_cli.2", "nohh_cmnty_cli.2"],
+
+"worried_finances": ["worried_finances.1"],
+"worried_finances.1": ["worried_finances.2"],
+"worried_finances.2": ["public_transit.2", "wshop_indoors.2", "wrestaurant_indoors.2"],
+
+"tested_positive": ["tested_positive.1"],
+"tested_positive.1": ["tested_positive.2"],
+"tested_positive.2": []
+}

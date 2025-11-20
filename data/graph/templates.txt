@@ -7,8 +7,6 @@ Infer a plausible causal DAG (Directed Acyclic Graph) over the features in the C
 I will also specify a prediction target label, which you can use to guide your reasoning, but you must not output it separately.
 Your output must be only a JSON adjacency list for the DAG in the format described below.
 
-prediction target label: <The target label>
-
 Input information
 
 Dataset domain/description: [SHORT DESCRIPTION OF DATASET, e.g. “clinical data for disease risk prediction”]
@@ -16,8 +14,6 @@ Dataset domain/description: [SHORT DESCRIPTION OF DATASET, e.g. “clinical data
 CSV header (feature names in order):
 ["FEATURE_1", "FEATURE_2", "FEATURE_3", ..., "FEATURE_N"]
 
-Prediction target (label) name:
-"TARGET_FEATURE_NAME"
 
 (Optional) Short description of each feature:
 

@@ -1,0 +1,309 @@
+{
+    "Order": [],
+    "PID": [],
+    "MS SubClass": [],
+    "MS Zoning": [
+        "MS SubClass",
+        "Lot Area",
+        "Neighborhood",
+        "Bldg Type",
+        "House Style"
+    ],
+    "Lot Frontage": [
+        "SalePrice"
+    ],
+    "Lot Area": [
+        "SalePrice"
+    ],
+    "Street": [
+        "Lot Frontage",
+        "Lot Area"
+    ],
+    "Alley": [
+        "Lot Frontage",
+        "Lot Area"
+    ],
+    "Lot Shape": [
+        "Lot Frontage",
+        "Lot Area"
+    ],
+    "Land Contour": [
+        "Lot Frontage",
+        "Lot Area"
+    ],
+    "Utilities": [
+        "SalePrice"
+    ],
+    "Lot Config": [
+        "Lot Frontage",
+        "Lot Area"
+    ],
+    "Land Slope": [
+        "Lot Frontage",
+        "Lot Area"
+    ],
+    "Neighborhood": [
+        "Lot Frontage",
+        "Lot Area",
+        "Condition 1",
+        "Condition 2",
+        "Bldg Type",
+        "House Style",
+        "Year Built",
+        "Year Remod/Add",
+        "Exterior 1st",
+        "Exterior 2nd",
+        "Foundation",
+        "Garage Type",
+        "SalePrice"
+    ],
+    "Condition 1": [],
+    "Condition 2": [],
+    "Bldg Type": [
+        "1st Flr SF",
+        "2nd Flr SF",
+        "Bedroom AbvGr",
+        "TotRms AbvGrd",
+        "SalePrice"
+    ],
+    "House Style": [
+        "1st Flr SF",
+        "2nd Flr SF",
+        "Bedroom AbvGr",
+        "TotRms AbvGrd",
+        "SalePrice"
+    ],
+    "Overall Qual": [
+        "SalePrice"
+    ],
+    "Overall Cond": [
+        "SalePrice"
+    ],
+    "Year Built": [
+        "Year Remod/Add",
+        "Overall Qual",
+        "Overall Cond",
+        "Roof Style",
+        "Roof Matl",
+        "Exterior 1st",
+        "Exterior 2nd",
+        "Foundation",
+        "Bsmt Qual",
+        "Bsmt Cond",
+        "Bsmt Exposure",
+        "Heating",
+        "Electrical",
+        "Garage Yr Blt",
+        "SalePrice"
+    ],
+    "Year Remod/Add": [
+        "Overall Qual",
+        "Overall Cond",
+        "Kitchen Qual",
+        "Functional",
+        "SalePrice"
+    ],
+    "Roof Style": [],
+    "Roof Matl": [],
+    "Exterior 1st": [
+        "Exter Qual",
+        "Exter Cond",
+        "Mas Vnr Type",
+        "Mas Vnr Area"
+    ],
+    "Exterior 2nd": [
+        "Exter Qual",
+        "Exter Cond",
+        "Mas Vnr Type",
+        "Mas Vnr Area"
+    ],
+    "Mas Vnr Type": [],
+    "Mas Vnr Area": [],
+    "Exter Qual": [
+        "Overall Qual",
+        "Overall Cond"
+    ],
+    "Exter Cond": [
+        "Overall Qual",
+        "Overall Cond"
+    ],
+    "Foundation": [
+        "Bsmt Qual",
+        "Bsmt Cond",
+        "Bsmt Exposure",
+        "Bsmt Unf SF"
+    ],
+    "Bsmt Qual": [
+        "BsmtFin Type 1",
+        "BsmtFin Type 2",
+        "Bsmt Full Bath",
+        "Bsmt Half Bath",
+        "Overall Qual",
+        "Overall Cond"
+    ],
+    "Bsmt Cond": [],
+    "Bsmt Exposure": [],
+    "BsmtFin Type 1": [
+        "BsmtFin SF 1"
+    ],
+    "BsmtFin SF 1": [
+        "Total Bsmt SF"
+    ],
+    "BsmtFin Type 2": [
+        "BsmtFin SF 2"
+    ],
+    "BsmtFin SF 2": [
+        "Total Bsmt SF"
+    ],
+    "Bsmt Unf SF": [
+        "Total Bsmt SF"
+    ],
+    "Total Bsmt SF": [
+        "1st Flr SF",
+        "Bsmt Full Bath",
+        "Bsmt Half Bath",
+        "SalePrice"
+    ],
+    "Heating": [
+        "Heating QC"
+    ],
+    "Heating QC": [
+        "SalePrice"
+    ],
+    "Central Air": [
+        "SalePrice"
+    ],
+    "Electrical": [],
+    "1st Flr SF": [
+        "Gr Liv Area",
+        "TotRms AbvGrd"
+    ],
+    "2nd Flr SF": [
+        "Gr Liv Area",
+        "TotRms AbvGrd"
+    ],
+    "Low Qual Fin SF": [
+        "Gr Liv Area",
+        "TotRms AbvGrd"
+    ],
+    "Gr Liv Area": [
+        "Full Bath",
+        "Half Bath",
+        "Bedroom AbvGr",
+        "Kitchen AbvGr",
+        "Fireplaces",
+        "SalePrice"
+    ],
+    "Bsmt Full Bath": [
+        "SalePrice"
+    ],
+    "Bsmt Half Bath": [
+        "SalePrice"
+    ],
+    "Full Bath": [
+        "SalePrice"
+    ],
+    "Half Bath": [
+        "SalePrice"
+    ],
+    "Bedroom AbvGr": [
+        "SalePrice"
+    ],
+    "Kitchen AbvGr": [
+        "Kitchen Qual"
+    ],
+    "Kitchen Qual": [
+        "Overall Qual",
+        "Overall Cond",
+        "SalePrice"
+    ],
+    "TotRms AbvGrd": [
+        "SalePrice"
+    ],
+    "Functional": [
+        "Overall Qual",
+        "Overall Cond"
+    ],
+    "Fireplaces": [
+        "Fireplace Qu",
+        "SalePrice"
+    ],
+    "Fireplace Qu": [
+        "SalePrice"
+    ],
+    "Garage Type": [
+        "Garage Cars",
+        "Garage Area",
+        "Garage Qual",
+        "Garage Cond"
+    ],
+    "Garage Yr Blt": [
+        "Garage Finish",
+        "Garage Cars",
+        "Garage Area",
+        "Garage Qual",
+        "Garage Cond"
+    ],
+    "Garage Finish": [],
+    "Garage Cars": [
+        "SalePrice"
+    ],
+    "Garage Area": [
+        "SalePrice"
+    ],
+    "Garage Qual": [
+        "SalePrice"
+    ],
+    "Garage Cond": [
+        "SalePrice"
+    ],
+    "Paved Drive": [
+        "Garage Area",
+        "Garage Cars",
+        "SalePrice"
+    ],
+    "Wood Deck SF": [
+        "SalePrice"
+    ],
+    "Open Porch SF": [
+        "SalePrice"
+    ],
+    "Enclosed Porch": [
+        "SalePrice"
+    ],
+    "3Ssn Porch": [
+        "SalePrice"
+    ],
+    "Screen Porch": [
+        "SalePrice"
+    ],
+    "Pool Area": [
+        "SalePrice"
+    ],
+    "Pool QC": [],
+    "Fence": [
+        "SalePrice"
+    ],
+    "Misc Feature": [
+        "SalePrice"
+    ],
+    "Misc Val": [
+        "SalePrice"
+    ],
+    "Mo Sold": [
+        "Sale Type",
+        "Sale Condition"
+    ],
+    "Yr Sold": [
+        "Mo Sold",
+        "Sale Type",
+        "Sale Condition"
+    ],
+    "Sale Type": [
+        "SalePrice"
+    ],
+    "Sale Condition": [
+        "SalePrice"
+    ],
+    "SalePrice": []
+}

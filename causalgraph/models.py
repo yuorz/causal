@@ -1,8 +1,7 @@
 
 from __future__ import annotations
-from typing import Dict, Optional, Any
+from typing import Dict, Optional
 import numpy as np
-import pandas as pd
 import torch
 from torch import nn
 from torch.utils.data import Dataset, DataLoader
@@ -77,7 +76,7 @@ def _train_eval_sklearn(
     y_valid_raw,
     task,
     c=None,
-    lambda_causal=1.0,
+    lambda_causal=0.01,
 ):
     # ------------------------
     # ① regression（含 causal）
@@ -96,8 +95,9 @@ def _train_eval_sklearn(
         model = CausalLinearRegression(
             c=c,
             lam=lambda_causal,
-            lr=1e-3,
-            max_iter=2000,
+            lr=1e-4,
+            max_iter=50000,
+            tol=0.0,
         )
         model.fit(X_train, y_train_f)
         preds = model.predict(X_valid)
@@ -117,11 +117,12 @@ def _train_eval_sklearn(
         proba = clf.predict_proba(X_valid)
         return _compute_metrics(task, y_valid, proba)
 
+
     clf = CausalLogisticRegression(
         c=c,
         lam=lambda_causal,
-        lr=1e-3,
-        max_iter=2000,
+        lr=4e-3,
+        max_iter=50000,
     )
     clf.fit(X_train, y_train)
     proba = clf.predict_proba(X_valid)
@@ -217,6 +218,7 @@ def train_and_eval(
     target,
     task="regression",
     model_type="linear",
+    c: Optional[np.ndarray] = None,
     graph=None,
 ):
     y_train = train_df[target].values
@@ -232,15 +234,6 @@ def train_and_eval(
         if graph is None:
             raise ValueError("graph must be provided for causal_linear")
 
-        # feature 順序 = X 的欄位順序（假設一致）
-        variables = list(train_df.drop(columns=[target]).columns)
-
-        c = compute_c_from_dag(
-            graph=graph,
-            variables=variables,
-            target=target,
-        )
-
         return _train_eval_sklearn(
             X_train,
             X_valid,
@@ -248,7 +241,7 @@ def train_and_eval(
             y_valid,
             task,
             c=c,
-            lambda_causal=1.0,
+            lambda_causal=0.01,
         )
 
     else:
